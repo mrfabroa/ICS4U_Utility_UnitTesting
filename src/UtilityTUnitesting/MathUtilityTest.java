@@ -16,13 +16,10 @@ public class MathUtilityTest{
     public void addTest2(){
         assertEquals(6, MathUtility.add(5,1));
     }
+    
     @Test
     public void addTest3(){
         assertEquals(-1, MathUtility.add(-2,1));
     }
-
-    
-
-
 
 }
